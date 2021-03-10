@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #2c3e50;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 22px 0;
+    transition: all .5s;
+}
+
+#difficulty {
+    margin: 0 3px 0 5px;
+    width: 200px;
+    padding: 3px;
+    background-color: #a7c5e3;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game__block {
+    width: 500px;
+    height: 230px;
+    background-color: #34495e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game__title {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 90%;
+    text-align: center;
+    padding: 10px 0;
+    margin: 15px 0;
+    border-radius: 3px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.timerAndScore {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    font-size: 17.5px;
+}
+
+.game__subtitle {
+    font-size: 14px;
+}
+
+.word {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+#type {
+    width: 60%;
+    padding: 11px 15px;
+    margin: 0 0 15px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+}
+
+.endgame__title {
+    margin: -10px 0 10px 0;
+}
+.final__score {
+    margin: 20px;
+}
+
+#reload {
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 5px 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 65px;
+    padding: 0 20px;
+}
+
+#settings  {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
